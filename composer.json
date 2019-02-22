@@ -35,6 +35,6 @@
     "hasCpSettings": false,
     "hasCpSection": false,
     "changelogUrl": "https://raw.githubusercontent.com/vardump-de/secretassets/master/CHANGELOG.md",
-    "class": "vardump\\secretassets\\SecretAssets"
+    "class": "vardump\\secretassets\\Secretassets"
   }
 }
