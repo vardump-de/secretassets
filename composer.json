@@ -1,0 +1,40 @@
+{
+  "name": "vardump/secretassets",
+  "description": "A simple plugin to restrict access to assets for permitted users only. ",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "secretassets"
+  ],
+  "support": {
+    "docs": "https://github.com/vardump-de/secretassets/blob/master/README.md",
+    "issues": "https://github.com/vardump-de/secretassets/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andi Grether",
+      "homepage": "https://webworker.me/"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "vardump\\secretassets\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "SecretAssets",
+    "handle": "secretassets",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "changelogUrl": "https://raw.githubusercontent.com/vardump-de/secretassets/master/CHANGELOG.md",
+    "class": "vardump\\secretassets\\SecretAssets"
+  }
+}
